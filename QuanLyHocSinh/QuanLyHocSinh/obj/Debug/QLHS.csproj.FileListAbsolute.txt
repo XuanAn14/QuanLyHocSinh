@@ -1,0 +1,37 @@
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\QLHS.csprojAssemblyReference.cache
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormDangNhap.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\QLHS.csproj.GenerateResource.cache
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormQuanLyHocSinh.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormQuanLyLop.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormQuanLyDiem.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormTrangChu.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormBCTKHocKy.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormBCTongKetMon.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormQuanLyTaiKhoan.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormQuanLyMonHoc.resources
+D:\CongNghePhanMem\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.View.FormThayDoiQuyDinh.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\WindowsFormsApp1.exe.config
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\WindowsFormsApp1.exe
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\WindowsFormsApp1.pdb
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormBCTKHocKy.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormBCTongKetMon.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.FormDangNhap.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormQuanLyTaiKhoan.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormTrangChu.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormQuanLyDiem.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.FormQuanLyHocSinh.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormQuanLyLop.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormQuanLyMonHoc.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.View.FormThayDoiQuyDinh.resources
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QLHS.csproj.GenerateResource.cache
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.exe
+G:\New folder (2)\QuanLyHocSinh\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\WindowsFormsApp1.pdb
