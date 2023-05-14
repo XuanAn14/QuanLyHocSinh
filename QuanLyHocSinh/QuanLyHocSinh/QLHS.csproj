@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exeption\LoiSoLuongLop.cs" />
+    <Compile Include="Exeption\SoLuongMonQuaQD.cs" />
+    <Compile Include="Exeption\LoiNhapDuLieu.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -112,7 +115,7 @@
     <Compile Include="Code\ThayDoiQuyDinh.Designer.cs">
       <DependentUpon>ThayDoiQuyDinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exeption\test.cs" />
+    <Compile Include="Exeption\LoiSiSo.cs" />
     <EmbeddedResource Include="Code\BCTongKetMon.resx">
       <DependentUpon>BCTongKetMon.cs</DependentUpon>
     </EmbeddedResource>
