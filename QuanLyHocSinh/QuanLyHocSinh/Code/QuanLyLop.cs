@@ -19,6 +19,7 @@ namespace WindowsFormsApp1.View
         public FormQuanLyLop()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
         private void ketnoicsdl()
@@ -196,5 +197,10 @@ namespace WindowsFormsApp1.View
             return ketqua;
         }
 
+        private void FormQuanLyLop_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            View.FormTrangChu f = new View.FormTrangChu();
+            f.Show();
+        }
     }
 }

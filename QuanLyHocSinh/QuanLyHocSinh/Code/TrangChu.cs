@@ -23,42 +23,51 @@ namespace WindowsFormsApp1.View
         public FormTrangChu()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
 
         private void btn_QLHocSinh_Click(object sender, EventArgs e)
         {
+            this.Hide();
             qlhs.ShowDialog();
+            
         }
 
         private void btn_QLTaiKhoan_Click(object sender, EventArgs e)
         {
+            this.Hide();
             qltk.ShowDialog();
         }
 
         private void btn_QLMH_Click(object sender, EventArgs e)
         {
+            this.Hide();
             qlmh.ShowDialog();
         }
 
         private void btn_QLLop_Click(object sender, EventArgs e)
         {
+            this.Hide();
             qll.ShowDialog();
         }
 
         private void btn_QLDiem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             qld.ShowDialog();
         }
 
         private void btn_BCMon_Click(object sender, EventArgs e)
         {
+            this.Hide();
             bctkm.ShowDialog();
         }
 
         private void btn_TDQD_Click(object sender, EventArgs e)
         {
+            this.Hide();
             tdqd.ShowDialog();
         }
 

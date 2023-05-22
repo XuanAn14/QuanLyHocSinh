@@ -17,7 +17,7 @@ namespace WindowsFormsApp1.View
         public FormQuanLyTaiKhoan()
         {
             InitializeComponent();
-            
+            this.CenterToScreen();
         }
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
         private Boolean KtraMKCu()
@@ -78,9 +78,11 @@ namespace WindowsFormsApp1.View
             textB_oldPass.Text = "";
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
 
+        private void FormQuanLyTaiKhoan_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            View.FormTrangChu f = new View.FormTrangChu();
+            f.Show();
         }
     }
 }

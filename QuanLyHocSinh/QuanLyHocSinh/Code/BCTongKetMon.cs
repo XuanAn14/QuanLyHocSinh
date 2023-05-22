@@ -18,6 +18,7 @@ namespace WindowsFormsApp1.View
         public FormBCTongKetMon()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
@@ -240,6 +241,12 @@ namespace WindowsFormsApp1.View
             }
             cnn.Close();
             return ketqua;
+        }
+
+        private void FormBCTongKetMon_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            View.FormTrangChu f = new View.FormTrangChu();
+            f.Show();
         }
     }
 }

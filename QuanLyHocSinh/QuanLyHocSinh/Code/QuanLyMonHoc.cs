@@ -18,6 +18,7 @@ namespace WindowsFormsApp1.View
         public FormQuanLyMonHoc()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
@@ -143,5 +144,10 @@ namespace WindowsFormsApp1.View
             ketnoicsdl();
         }
 
+        private void FormQuanLyMonHoc_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormTrangChu f = new FormTrangChu();
+            f.Show();
+        }
     }
 }

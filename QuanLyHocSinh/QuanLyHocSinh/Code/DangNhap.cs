@@ -19,7 +19,8 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             textB_password.PasswordChar = '*';
-            
+            this.CenterToScreen();
+
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
@@ -72,7 +73,7 @@ namespace WindowsFormsApp1
         {
             if(KtraTenTK() && KtraMK())
             {
-                this.Visible = false;
+                this.Hide();
                 ftc.ShowDialog();
             } else
             {

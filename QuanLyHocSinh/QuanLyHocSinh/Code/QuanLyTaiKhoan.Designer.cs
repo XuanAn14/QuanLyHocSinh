@@ -43,30 +43,27 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(148, 31);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(111, 25);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(250, 31);
+            this.label6.Size = new System.Drawing.Size(188, 24);
             this.label6.TabIndex = 44;
             this.label6.Text = "Quản Lý Tài Khoản";
             // 
             // textB_oldPass
             // 
             this.textB_oldPass.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textB_oldPass.Location = new System.Drawing.Point(184, 32);
-            this.textB_oldPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textB_oldPass.Location = new System.Drawing.Point(138, 26);
             this.textB_oldPass.Name = "textB_oldPass";
-            this.textB_oldPass.Size = new System.Drawing.Size(313, 30);
+            this.textB_oldPass.Size = new System.Drawing.Size(236, 26);
             this.textB_oldPass.TabIndex = 47;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(29, 37);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(22, 30);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(125, 22);
+            this.label13.Size = new System.Drawing.Size(100, 19);
             this.label13.TabIndex = 46;
             this.label13.Text = "Mật Khẩu Cũ: ";
             // 
@@ -74,20 +71,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 98);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(15, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 22);
+            this.label1.Size = new System.Drawing.Size(107, 19);
             this.label1.TabIndex = 46;
             this.label1.Text = "Mật Khẩu Mới: ";
             // 
             // textB_newPass
             // 
             this.textB_newPass.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textB_newPass.Location = new System.Drawing.Point(184, 94);
-            this.textB_newPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textB_newPass.Location = new System.Drawing.Point(138, 76);
             this.textB_newPass.Name = "textB_newPass";
-            this.textB_newPass.Size = new System.Drawing.Size(313, 30);
+            this.textB_newPass.Size = new System.Drawing.Size(236, 26);
             this.textB_newPass.TabIndex = 47;
             // 
             // btn_DoiMK
@@ -96,10 +91,9 @@
             this.btn_DoiMK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_DoiMK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DoiMK.ForeColor = System.Drawing.Color.White;
-            this.btn_DoiMK.Location = new System.Drawing.Point(185, 175);
-            this.btn_DoiMK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_DoiMK.Location = new System.Drawing.Point(139, 142);
             this.btn_DoiMK.Name = "btn_DoiMK";
-            this.btn_DoiMK.Size = new System.Drawing.Size(168, 46);
+            this.btn_DoiMK.Size = new System.Drawing.Size(126, 37);
             this.btn_DoiMK.TabIndex = 48;
             this.btn_DoiMK.Text = "Đổi Mật Khẩu";
             this.btn_DoiMK.UseVisualStyleBackColor = false;
@@ -114,35 +108,32 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textB_oldPass);
             this.panel1.Controls.Add(this.label13);
-            this.panel1.Location = new System.Drawing.Point(28, 126);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(21, 102);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(534, 244);
+            this.panel1.Size = new System.Drawing.Size(401, 199);
             this.panel1.TabIndex = 49;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(59, 110);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(44, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 27);
+            this.label2.Size = new System.Drawing.Size(116, 21);
             this.label2.TabIndex = 50;
             this.label2.Text = "Đổi Mật Khẩu";
             // 
             // FormQuanLyTaiKhoan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 433);
+            this.ClientSize = new System.Drawing.Size(444, 352);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormQuanLyTaiKhoan";
             this.Text = "Quản Lý Sinh Viên";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormQuanLyTaiKhoan_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

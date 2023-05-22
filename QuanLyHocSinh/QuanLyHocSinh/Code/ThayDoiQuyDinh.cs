@@ -16,6 +16,7 @@ namespace WindowsFormsApp1.View
         public FormThayDoiQuyDinh()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
         private void ketnoicsdl()
@@ -185,6 +186,10 @@ namespace WindowsFormsApp1.View
             
         }
 
-        
+        private void FormThayDoiQuyDinh_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormTrangChu f = new FormTrangChu();
+            f.Show();
+        }
     }
 }

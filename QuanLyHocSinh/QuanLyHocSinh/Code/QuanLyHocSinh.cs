@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         public FormQuanLyHocSinh()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
@@ -262,6 +263,12 @@ namespace WindowsFormsApp1
             ketqua = datareader[0].ToString();
             lb_TenLop.Text = ketqua;
             cnn.Close();
+        }
+
+        private void FormQuanLyHocSinh_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            View.FormTrangChu f = new View.FormTrangChu();
+            f.Show();
         }
     }
 }

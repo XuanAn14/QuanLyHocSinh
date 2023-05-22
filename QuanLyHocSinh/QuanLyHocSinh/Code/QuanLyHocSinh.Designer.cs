@@ -67,8 +67,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.comboB_Lop = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.lb_TenLop = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -478,6 +478,15 @@
             this.panel1.Size = new System.Drawing.Size(777, 262);
             this.panel1.TabIndex = 37;
             // 
+            // lb_TenLop
+            // 
+            this.lb_TenLop.AutoSize = true;
+            this.lb_TenLop.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_TenLop.Location = new System.Drawing.Point(628, 131);
+            this.lb_TenLop.Name = "lb_TenLop";
+            this.lb_TenLop.Size = new System.Drawing.Size(0, 21);
+            this.lb_TenLop.TabIndex = 37;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gainsboro;
@@ -497,15 +506,6 @@
             this.panel2.Size = new System.Drawing.Size(777, 351);
             this.panel2.TabIndex = 38;
             // 
-            // lb_TenLop
-            // 
-            this.lb_TenLop.AutoSize = true;
-            this.lb_TenLop.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_TenLop.Location = new System.Drawing.Point(628, 131);
-            this.lb_TenLop.Name = "lb_TenLop";
-            this.lb_TenLop.Size = new System.Drawing.Size(0, 21);
-            this.lb_TenLop.TabIndex = 37;
-            // 
             // FormQuanLyHocSinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -517,6 +517,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "FormQuanLyHocSinh";
             this.Text = "Quản Lý Sinh Viên";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormQuanLyHocSinh_FormClosed);
             this.Load += new System.EventHandler(this.QuanLyHocSinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();

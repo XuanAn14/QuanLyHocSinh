@@ -18,20 +18,21 @@ namespace WindowsFormsApp1.View
         public FormQuanLyDiem()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         SqlConnection cnn = new SqlConnection(@"Data Source=.;Initial Catalog=QLHS;Integrated Security=True");
         private void ketnoicsdl()
         {
             cnn.Open();
-            string sql = "Select * from Diem";  // lay het du lieu trong bang sinh vien
-            SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
+            string sql = "Select * from Diem";  
+            SqlCommand com = new SqlCommand(sql, cnn);
             com.CommandType = CommandType.Text;
-            SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve
-            DataTable dt = new DataTable(); //tạo một kho ảo để lưu trữ dữ liệu
-            da.Fill(dt);  // đổ dữ liệu vào kho
-            cnn.Close();  // đóng kết nối
-            dataGridView1.DataSource = dt; //đổ dữ liệu vào datagridview
+            SqlDataAdapter da = new SqlDataAdapter(com); 
+            DataTable dt = new DataTable(); 
+            da.Fill(dt);  
+            cnn.Close();  
+            dataGridView1.DataSource = dt; 
 
 
         }
@@ -222,6 +223,10 @@ namespace WindowsFormsApp1.View
             comboB_MaMH.SelectedIndex = 0;
         }
 
-        
+        private void FormQuanLyDiem_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormTrangChu f = new FormTrangChu();
+            f.Show();
+        }
     }
 }

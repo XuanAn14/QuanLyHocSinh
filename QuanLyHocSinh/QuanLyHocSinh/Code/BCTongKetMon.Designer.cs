@@ -356,6 +356,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "FormBCTongKetMon";
             this.Text = "Quản Lý Sinh Viên";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormBCTongKetMon_FormClosed);
             this.Load += new System.EventHandler(this.FormBCTongKetMon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
