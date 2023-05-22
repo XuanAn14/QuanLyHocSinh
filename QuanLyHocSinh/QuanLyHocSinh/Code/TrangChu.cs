@@ -75,13 +75,13 @@ namespace WindowsFormsApp1.View
         {
             cnn.Open();
             string sql = "Select l.MaLop,l.KhoiLop,l.TenLop, (count(MaHS))as SiSo from Lop l, HocSinh hs where l.MaLop = hs.MaLop group by l.MaLop,l.KhoiLop,l.TenLop";  // lay het du lieu trong bang sinh vien
-            SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
+            SqlCommand com = new SqlCommand(sql, cnn);
             com.CommandType = CommandType.Text;
             SqlDataAdapter da = new SqlDataAdapter(com);
-            DataTable dt = new DataTable(); //tạo một kho ảo để lưu trữ dữ liệu
-            da.Fill(dt);  // đổ dữ liệu vào kho
-            cnn.Close();  // đóng kết nối
-            dataGridView1.DataSource = dt; //đổ dữ liệu vào datagridview
+            DataTable dt = new DataTable();
+            da.Fill(dt);  
+            cnn.Close();  
+            dataGridView1.DataSource = dt;
         }
 
         private void btn_DSMH_Click(object sender, EventArgs e)
@@ -100,14 +100,14 @@ namespace WindowsFormsApp1.View
         private void btn_DSHS_Click(object sender, EventArgs e)
         {
             cnn.Open();
-            string sql = "select * from HocSinh ";  // lay het du lieu trong bang sinh vien
-            SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
+            string sql = "select * from HocSinh "; 
+            SqlCommand com = new SqlCommand(sql, cnn); 
             com.CommandType = CommandType.Text;
-            SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve
-            DataTable dt = new DataTable(); //tạo một kho ảo để lưu trữ dữ liệu
-            da.Fill(dt);  // đổ dữ liệu vào kho
-            cnn.Close();  // đóng kết nối
-            dataGridView1.DataSource = dt; //đổ dữ liệu vào datagridview
+            SqlDataAdapter da = new SqlDataAdapter(com);
+            DataTable dt = new DataTable(); 
+            da.Fill(dt);  
+            cnn.Close(); 
+            dataGridView1.DataSource = dt;
         }
 
         private void btn_BCM_Click(object sender, EventArgs e)

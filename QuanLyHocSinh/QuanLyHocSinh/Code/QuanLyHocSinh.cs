@@ -27,14 +27,14 @@ namespace WindowsFormsApp1
         private void ketnoicsdl()
         {
             cnn.Open();
-            string sql = "select * from HocSinh ";  // lay het du lieu trong bang sinh vien
-            SqlCommand com = new SqlCommand(sql, cnn); //bat dau truy van
+            string sql = "select * from HocSinh "; 
+            SqlCommand com = new SqlCommand(sql, cnn); 
             com.CommandType = CommandType.Text;
-            SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve
-            DataTable dt = new DataTable(); //tạo một kho ảo để lưu trữ dữ liệu
-            da.Fill(dt);  // đổ dữ liệu vào kho
-            cnn.Close();  // đóng kết nối
-            dataGridView1.DataSource = dt; //đổ dữ liệu vào datagridview
+            SqlDataAdapter da = new SqlDataAdapter(com); 
+            DataTable dt = new DataTable(); 
+            da.Fill(dt);  
+            cnn.Close();  
+            dataGridView1.DataSource = dt; 
 
         }
 
