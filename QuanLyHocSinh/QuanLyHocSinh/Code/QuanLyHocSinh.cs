@@ -89,8 +89,7 @@ namespace WindowsFormsApp1
                 sqlCommand.Parameters.Add("@GioiTinh", SqlDbType.NVarChar).Value = gioiTinh.ToString();
 
                 int tuoihs = DateTime.Now.Year - dateTimePicker1.Value.Year;
-
-                sqlCommand.Parameters.Add("@NgaySinh", SqlDbType.Date).Value = dateTimePicker1.Value.ToShortDateString();
+                sqlCommand.Parameters.Add("@NgaySinh", SqlDbType.VarChar).Value = dateTimePicker1.Value.ToShortDateString();
                 if (tuoihs < tdqd.LayTuoiMin() || tuoihs > tdqd.LayTuoiMax())
                 {
                     throw new ArithmeticException();
@@ -142,10 +141,10 @@ namespace WindowsFormsApp1
             int CurrentIndex = dataGridView1.CurrentCell.RowIndex;
 
             string sql = "update HocSinh set  " +
-                "HoVaTen = '"+dataGridView1.Rows[CurrentIndex].Cells[2].Value.ToString() +"'," +
-                " GioiTinh = '" + dataGridView1.Rows[CurrentIndex].Cells[3].Value.ToString() + "'," +
+                " HoVaTen = N'"+dataGridView1.Rows[CurrentIndex].Cells[2].Value.ToString() +"'," +
+                " GioiTinh = N'" + dataGridView1.Rows[CurrentIndex].Cells[3].Value.ToString() + "'," +
                 " NgaySinh = '" + dataGridView1.Rows[CurrentIndex].Cells[4].Value.ToString() + "'," +
-                " DiaChi = '" + dataGridView1.Rows[CurrentIndex].Cells[5].Value.ToString() + "'," +
+                " DiaChi = N'" + dataGridView1.Rows[CurrentIndex].Cells[5].Value.ToString() + "'," +
                 " Email = '" + dataGridView1.Rows[CurrentIndex].Cells[6].Value.ToString() + "'," +
                 "MaLop = '" + dataGridView1.Rows[CurrentIndex].Cells[7].Value.ToString() + "'" +
                 " where MaHS = '" + dataGridView1.Rows[CurrentIndex].Cells[1].Value.ToString() + "'";

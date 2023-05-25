@@ -126,10 +126,6 @@ namespace WindowsFormsApp1.View
 
             cnn.Close();
             ketnoicsdl();
-            textB_Diem15.Text ="";
-            textB_Diem1T.Text = "";
-            textB_MaDiem.Text = "";
-            textB_MaHS.Text = "";
         }
 
         private void btn_Sua_Click(object sender, EventArgs e)
@@ -190,8 +186,8 @@ namespace WindowsFormsApp1.View
             SqlDataAdapter da = new SqlDataAdapter(com);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            cnn.Close();
             dataGridView1.DataSource = dt;
+            cnn.Close();
         }
 
         private void radioButton_2_CheckedChanged(object sender, EventArgs e)
@@ -204,8 +200,8 @@ namespace WindowsFormsApp1.View
             SqlDataAdapter da = new SqlDataAdapter(com);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            cnn.Close();
             dataGridView1.DataSource = dt;
+            cnn.Close();
         }
 
         private void LayMaMH()

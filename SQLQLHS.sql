@@ -21,7 +21,7 @@ Create Table HocSinh
 	MaHS varchar(10) primary key,
 	HoVaTen nvarchar(50) not null,
 	GioiTinh nvarchar(3) not null,
-	NgaySinh date not null,
+	NgaySinh varchar(30) not null,
 	DiaChi nvarchar(50) not null,
 	Email varchar(50) not null,
 	MaLop varchar(10) foreign key references Lop(MaLop)
@@ -79,11 +79,11 @@ values
 
 Insert into HocSinh
 values 
-('SV01', N'Nguyễn Xuân An', N'Nam', '2003-03-14', N'Hà Nội', 'anxuan1234@gmail.com', 'LH01'),
-('SV02', N'Nguyễn Thái Hà', N'Nam', '2003-08-1', N'Hà Nội', 'thaiha1234@gmail.com', 'LH01'),
-('SV03', N'Phạm Ngọc Huy', N'Nam', '2003-1-1', N'Hà Nội', 'phamhuy1234@gmail.com', 'LH02'),
-('SV04', N'Ngô Quý Tuấn', N'Nam', '2002-10-1', N'Hà Nội', 'ngoqtuan@gmail.com', 'LH01'),
-('SV05', N'Đinh Văn Tú', N'Nam', '2001-2-2', N'Hà Nội', 'vantu@gmail.com', 'LH02')
+('SV01', N'Nguyễn Xuân An', N'Nam', '14/03/2003', N'Hà Nội', 'anxuan1234@gmail.com', 'LH01'),
+('SV02', N'Nguyễn Thái Hà', N'Nam', '01/08/2003', N'Hà Nội', 'thaiha1234@gmail.com', 'LH01'),
+('SV03', N'Phạm Ngọc Huy', N'Nam', '01/01/2003', N'Hà Nội', 'phamhuy1234@gmail.com', 'LH02'),
+('SV04', N'Ngô Quý Tuấn', N'Nam', '01/10/2002', N'Hà Nội', 'ngoqtuan@gmail.com', 'LH01'),
+('SV05', N'Đinh Văn Tú', N'Nam', '02/02/2001', N'Hà Nội', 'vantu@gmail.com', 'LH02')
 
 Insert into Diem
 values 
@@ -175,4 +175,3 @@ as
 begin
     insert into ThayDoiQuyDinh values (@TuoiToiThieu,@TuoiToiDa,@SiSoMax,@SoLuongLop,@SoLuongMon,@DiemDat)
 end
-
